@@ -23,7 +23,7 @@ public class SwitchArrow {
             //for multiple lines block is necessary
             case 97,98,99 : {   //can pass multiple values to test
                 System.out.println("y is currently : "+ y);
-                y +=100;  // break is not necessary when '->' is used instead if ':'
+                y +=100;
             }
             case 100 :
                     System.out.println("one hundred");
