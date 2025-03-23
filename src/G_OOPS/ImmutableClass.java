@@ -9,7 +9,6 @@ public final class ImmutableClass { //using final prevent inheritance
     private final int id;  //primitive
     private final List<String> courses; //Mutable
     private final ArrayList<StringBuilder>  hobbies; //Used array list inorder to use clone() method in the getter
-
     public ImmutableClass(String name, int id, List<String> courses, List<StringBuilder> hobbies) {
         this.name = name;
         this.id = id;
