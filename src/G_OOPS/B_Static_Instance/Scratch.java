@@ -1,6 +1,5 @@
 package G_OOPS.B_Static_Instance;
 
-import org.jetbrains.annotations.NotNull;
 
 public class Scratch {
     int x;
@@ -10,7 +9,7 @@ public class Scratch {
 
     }
 
-    Scratch doMoreStuff (@NotNull Scratch this){  //'this' can be passed as parameter
+    Scratch doMoreStuff (Scratch this){  //'this' can be passed as parameter
     return this;
     }
 
